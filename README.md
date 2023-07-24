@@ -7,6 +7,7 @@
 |urSEG_mellon_print|finetuned from mellon_print_layout|default with `-N 50`, `--pad 2 2`, and `-bl`|less certain on pages with both `MaineZone` and `MarginTextZone`|
 |urSEG_existing_best_ur_print|finetuned on an existing baseline only model, which was trained from scratch|default with `-N50`, `--pad 2 2 `, and `-bl`|pretty similar to `urSEG_mellon_print` with slightly better baselines|
 |urSEG_baselines_existing_best_ur_print|finetuned on an existing baseline only model, which was trained from scratch|default with `-N50`, `--pad 2 2`, and `-bl`|currently training|
+|yolov5|trained with <a href="https://github.com/PonteIneptique/YALTAi" target="_blank">YALTAi</a>||weights too large to upload here|
 
 # Trainig Types
 |line types|count|
