@@ -7,7 +7,7 @@
 |urSEG_mellon_print|finetuned from mellon_print_layout (openiti)|`--resize both`, `--epochs 50`, `--pad 2 2`, and `-bl`|poor on pages with both `MaineZone` and `MarginTextZone`; masks from baselines is not ideal|
 |urSEG_existing_best_ur_print|finetuned on an existing baseline only model, which was trained from scratch|`--resize both`, `--epochs 50`, `--pad 2 2 `, and `-bl`, rest default|pretty similar to `urSEG_mellon_print` for regions; better baselines|
 |urSEG_regions_from_scratch|trained from scratch|`--suppress-baselines`, `--epochs 70`, rest default|region only; handles multicolumn upto three columns; prone to merge `MarginTextZone` and `MainZone`, especially where separation between the two is less clear|
-|urSEG_regions_openiti_PRE_print|finetuned from pretrain_print_layout (openiti)|`--resize both`, `--suppress-baselines`, `--epochs 70`, rest default|region only; similar to urSEG_regions_from_scratch, except worse to finetune|
+|urSEG_regions_openiti_PRE_print|finetuned from pretrain_print_layout (openiti)|`--resize both`, `--suppress-baselines`, `--epochs 70`, rest default|region only; similar to `urSEG_regions_from_scratch`, except worse to finetune|
 |yolov5|trained with <a href="https://github.com/PonteIneptique/YALTAi" target="_blank">YALTAi</a>||weights too large to upload here|
 
 
