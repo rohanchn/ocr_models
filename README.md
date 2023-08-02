@@ -11,7 +11,7 @@
 |yolov5|trained with <a href="https://github.com/PonteIneptique/YALTAi" target="_blank">YALTAi</a>||weights too large to upload here|
 
 
-# Trainig Types
+# Training Types
 |line types|count|
 |----------|----------|
 |DefaultLine|50620|
