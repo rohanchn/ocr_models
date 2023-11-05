@@ -11,7 +11,8 @@
 |yolov5|trained with <a href="https://github.com/PonteIneptique/YALTAi" target="_blank">YALTAi</a>||weights too large to upload here|
 
 
-# Training Types; `urSEG_existing_best_ur_print.mlmodel`
+# Training Types; 
+`urSEG_existing_best_ur_print.mlmodel`
 |line types|count|
 |----------|----------|
 |DefaultLine|133857|
@@ -19,7 +20,8 @@
 |CustomLine:signature|63|
 |HeadingLine:incipit|23
 
-# Types for region only models; `urSEG_existing_best_ur_print.mlmodel`
+# Types for region only models; 
+`urSEG_existing_best_ur_print.mlmodel`
 |region types|count|
 |-------|-------|
 |NumberingZone:page|3693|
