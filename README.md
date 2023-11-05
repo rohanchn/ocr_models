@@ -12,16 +12,14 @@
 
 
 # Training Types; 
-`urSEG_existing_best_ur_print.mlmodel`
+For the latest `urSEG_existing_best_ur_print.mlmodel`
 |line types|count|
 |----------|----------|
 |DefaultLine|133857|
 |HeadingLine:title|1514|
 |CustomLine:signature|63|
 |HeadingLine:incipit|23
-
-# Types for region only models; 
-`urSEG_existing_best_ur_print.mlmodel`
+ 
 |region types|count|
 |-------|-------|
 |NumberingZone:page|3693|
