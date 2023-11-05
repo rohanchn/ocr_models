@@ -11,45 +11,32 @@
 |yolov5|trained with <a href="https://github.com/PonteIneptique/YALTAi" target="_blank">YALTAi</a>||weights too large to upload here|
 
 
-# Training Types
+# Training Types; `urSEG_existing_best_ur_print.mlmodel`
 |line types|count|
 |----------|----------|
-|DefaultLine|50620|
-|HeadingLine:title|230
-|CustomLine:signature|53|
+|DefaultLine|133857|
+|HeadingLine:title|1514|
+|CustomLine:signature|63|
+|HeadingLine:incipit|23
 
-|region types|count|
-|----------|----------|
-|NumberingZone:page|1764|
-|MainZone|1305|
-|RunningTitleZone|1458|
-|MainZone:column#1|556|
-|MainZone:column#2|548|
-|MarginTextZone:note|327|
-|CustomZone:publication|172|
-|MarginTextZone:note#2|58|
-|MarginTextZone:note#1|47|
-|TitlePageZone|41|
-|QuireMarksZone:catchwords|26|
-|DigitizationArtefactZone|8|
-|GraphicZone:illustration|5|
-|NumberingZone:other|3|
-|GraphicZone:ornamentation|2|
-
-# Types for region only models
+# Types for region only models; `urSEG_existing_best_ur_print.mlmodel`
 |region types|count|
 |-------|-------|
-|NumberingZone:page|2377|
-|RunningTitleZone|2337|
-|MainZone|1669|
-|MainZone:column#2|870|
-|MainZone:column#1|869|
-|MarginTextZone:note|587|
-|MarginTextZone:commentary|220|
-|MainZone:column#3|202|
-|CustomZone:publication|173|
-|MarginTextZone:note#2|68|
-|MarginTextZone:note#1|55|
-|TitlePageZone|43|
+|NumberingZone:page|3693|
+|RunningTitleZone|3001|
+|MainZone|2788|
+|MainZone:column#1|1213|
+|MainZone:column#2|1207|
+|MarginTextZone:note|712|
+|CustomZone:publication|620|
+|MainZone:column#3|441|
+|MarginTextZone:commentary|257|
+|DigitizationArtefactZone|247|
+|QuireMarksZone:catchwords|160|
+|TitlePageZone|71|
+|MarginTextZone:note#2|59|
+|MarginTextZone:note#1|52|
+|GraphicZone:illustration|17|
+|NumberingZone:other|9|
 
-Models trained with [Kraken](https://github.com/mittagessen/kraken) `==4.3.12`
+Trained with [Kraken](https://github.com/mittagessen/kraken) `==4.3.13`
